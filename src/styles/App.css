@@ -1,12 +1,26 @@
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+button {
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.ns-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 1% 10%;    
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
